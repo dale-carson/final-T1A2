@@ -176,6 +176,37 @@ nav a:focus {
     color: #fff;
 }
 
+.blog-footer {
+    background: #162c3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:95vw;
+    margin: 0 auto;
+}
+
+.blog-footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-footer ul li {
+    list-style: none;
+}
+.blog-footer ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.blog-footer ul li a img {
+    filter: invert(1);
+    max-width: 40px;
+}
+
+.blog-footer p {
+    color: #fff;
+}
+
 figure {
     margin: 0;
     height:0 auto;
@@ -552,7 +583,7 @@ figure {
     }
 
     .home-hero {
-        height: 40vh;
+        height: 50vh;
         padding-top: 35vh;
     }
 
@@ -572,7 +603,7 @@ figure {
     }
     
     .home-about-textbox p {
-        font-size: 2em;
+        font-size: 8em;
         padding-top: 1em;
         margin: 0;
         color: #fff;
@@ -626,6 +657,7 @@ figure {
     .contact-textbox p {
         padding: 2em 2em 2em 1em;
     }
+
 }
 
 /*  MEDIA BREAKPOINT WIDE SCREEN*/
@@ -650,5 +682,4 @@ figure {
         padding: 1em 2em;
         
     }
-
 }
